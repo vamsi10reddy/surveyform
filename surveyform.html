@@ -1,0 +1,51 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<link href="surveyform.css" rel="stylesheet" type="text/css">
+<h1 id="title">Food Survey Form</h1>
+<p id="description"><b>Thank you for taking the time to help us improve the platform</b></p>
+
+<div id="body">
+
+<form id="survey-form">
+  
+  
+  <label id="name-label"><br><br> 
+      Name: <br></label>
+  <input id="name" type="text" placeholder="Enter your name"  required><br>
+  <label id="email-label"><br>
+    Email: </br>
+    </label>
+  <input id="email" type="email" placeholder="Enter your email"  required><br>
+<label id="number-label"><br>
+  Age:</br>
+  </label>
+  <input id="number" type="number" placeholder="Enter your Age" min=10 max=50 required><br>
+  <p>which food do u like the most?</p>
+  <select id="dropdown" value="select">
+  <option  value="default">select</option>
+    <option  value="1">Burger</option>
+      <option  value="2">Pizza</option>
+    <option  value="3">Frankie</option>
+    <option  value="4">Pastries</option>
+    </select><br>
+  <br><p>Which  bakery do you prefer the most?</p><br>
+   
+    <label for="item1"><input id="item1" type="radio" name="indoor-outdoor" value="1"> Aroma</label><br>
+    <label for="item2"><input id="item2" type="radio" name="indoor-outdoor" value="2"> Iyangar</label><br>
+   <label for="item3"><input id="item3" type="radio" name="indoor-outdoor" value="3"> Karachi</label><br>
+   <label for="item"><input id="item4" type="radio" name="indoor-outdoor" value="4"> Fifth avenue</label><br>
+   <input type="radio"  name="indoor-outdoor" value="1">Other</input><br>
+  
+
+<p>What other food items do u like? </p><br>
+
+   <input type="checkbox"   name="food" value="1" required>Pani-puri</input><br>
+   <input type="checkbox"  name="food" value="2">Chat</input><br>
+   <input type="checkbox"  name="food" value="3">Samosa</input><br>
+
+<br>
+<textarea id="area" rows="10" cols="50">Add your comment here</textarea><br>
+<br>
+<input id="submit" type="submit" padding:"20px"></input>
+ 
+</form>
+  </div>
